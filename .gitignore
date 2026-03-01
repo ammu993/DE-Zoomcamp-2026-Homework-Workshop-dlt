@@ -1,0 +1,17 @@
+# dlt secrets (never push this!)
+.dlt/secrets.toml
+
+# dlt pipeline state and data
+.dlt/
+*.duckdb
+
+# virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# uv
+.python-version
